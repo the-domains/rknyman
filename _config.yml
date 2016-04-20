@@ -1,28 +1,40 @@
-name: RKNYMAN
 favicon: null
-layout_spectrum: 0.5657227302435786
-typography_spectrum: 0.17070644022896886
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: RKNYMAN
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.3689366
+  brandStrength: 0.8779610225465149
+  lightness: 0.7681903
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-  brandStrength: 0.8779610225465149
-  lightness: 0.6694610307458788
-  saturation: 0.40434866887517273
-  rhythmicContrast: 0.4821879710070789
-purpose: []
+  rhythmicContrast: 0.7304105
+typography_spectrum: 0.8162314
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
